@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -452,3 +453,84 @@ main {
 .add-to-list-item-btn:hover { background: linear-gradient(to bottom, #e7e9ec, #d9dbde); }
 
 hr { border: none; border-top: 1px solid #ddd; margin: 20px 0; }
+
+/* Fix header 2 links color */
+.header2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.header2 a:visited {
+  color: white;
+}
+
+.header2 a:hover {
+  text-decoration: underline;
+}
+
+/* Fix books nav spacing and color */
+.header3 {
+  background-color: #f5f5f5;
+  padding-left: 20px;
+  height: 34px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px #e0e0e0 solid;
+}
+
+.header3 nav,
+.header3 {
+  gap: 25px;
+}
+
+.header3 a,
+.header3 nav a {
+  color: black;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+.header3 a:visited,
+.header3 nav a:visited {
+  color: black;
+}
+
+.header3 a:hover,
+.header3 nav a:hover {
+  color: #c45500;
+  text-decoration: underline;
+}
+
+/* Fix language position */
+.lang {
+  background-color: #11141b;
+  color: white;
+  border: none;
+  font-weight: bold;
+  position: relative;
+  right: 8px;
+  cursor: pointer;
+}
+.sign-in a,
+.orders a,
+.shopping-cart a {
+  color: white;
+  text-decoration: none;
+}
+
+.sign-in a:visited,
+.orders a:visited,
+.shopping-cart a:visited {
+  color: white;
+}
+
+.sign-in a:hover,
+.orders a:hover,
+.shopping-cart a:hover {
+  color: white;
+  text-decoration: none;
+}
+.cart {
+  color: white;
+}
